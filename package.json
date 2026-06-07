@@ -1,0 +1,41 @@
+{
+  "name": "talktoplanb-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for TalkToPlanB — let AI assistants list rooms, read messages, and send messages.",
+  "license": "MIT",
+  "type": "module",
+  "repository": { "type": "git", "url": "git+https://github.com/JMLEE850623/talktoplanb-mcp.git" },
+  "homepage": "https://talktoplanb.duckdns.org/",
+  "bugs": { "url": "https://github.com/JMLEE850623/talktoplanb-mcp/issues" },
+  "bin": {
+    "talktoplanb-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "talktoplanb",
+    "messaging",
+    "chat",
+    "ai-agent"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.5.0"
+  }
+}
