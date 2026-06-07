@@ -1,6 +1,7 @@
 {
   "name": "talktoplanb-mcp",
-  "version": "1.0.0",
+  "mcpName": "io.github.JMLEE850623/talktoplanb-mcp",
+  "version": "1.0.1",
   "description": "MCP server for TalkToPlanB — let AI assistants list rooms, read messages, and send messages.",
   "license": "MIT",
   "type": "module",

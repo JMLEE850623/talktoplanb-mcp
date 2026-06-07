@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.JMLEE850623/talktoplanb-mcp",
+  "description": "MCP server for TalkToPlanB - let AI assistants list chat rooms, read messages, and send messages on a self-hosted WhatsApp-alternative messenger.",
+  "repository": {
+    "url": "https://github.com/JMLEE850623/talktoplanb-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "talktoplanb-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your TalkToPlanB API key (ttpb_...), created in the developer portal",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "TALKTOPLANB_API_KEY"
+        }
+      ]
+    }
+  ]
+}
