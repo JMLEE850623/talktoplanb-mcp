@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.JMLEE850623/talktoplanb-mcp",
-  "description": "MCP server for TalkToPlanB - let AI assistants list chat rooms, read messages, and send messages on a self-hosted WhatsApp-alternative messenger.",
+  "description": "MCP server for TalkToPlanB: list rooms, read & send messages (WhatsApp alternative).",
   "repository": {
     "url": "https://github.com/JMLEE850623/talktoplanb-mcp",
     "source": "github"
